@@ -9,7 +9,7 @@ Summary:	Determine type information for columns
 Summary(pl):	Okre¶lanie informacji o typie dla kolumn
 Name:		perl-Class-DBI-Plugin-Type
 Version:	0.02
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -20,7 +20,6 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Class-DBI
 BuildRequires:	perl-DBD-SQLite
-BuildRequires:	perl-DBIx-ContextualFetch
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -39,8 +38,8 @@ o informacje o typie w sposób niezale¿ny od bazy danych.
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-
 %{__make}
+
 %{?with_tests:%{__make} test}
 
 %install
