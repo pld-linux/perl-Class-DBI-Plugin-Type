@@ -10,7 +10,8 @@ Summary(pl):	Okre¶lanie informacji o typie dla kolumn
 Name:		perl-Class-DBI-Plugin-Type
 Version:	0.02
 Release:	2
-License:	GPL or Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	2f80426ccc67629543404ee9376a6d3e
