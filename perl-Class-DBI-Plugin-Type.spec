@@ -9,7 +9,7 @@ Summary:	Determine type information for columns
 Summary(pl):	Okre¶lanie informacji o typie dla kolumn
 Name:		perl-Class-DBI-Plugin-Type
 Version:	0.02
-Release:	1
+Release:	2
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -53,7 +53,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-# There are two other Plugins for CDBI, but they aren't in PLD
-# currently. Let Plugin directory belong to this package
-%{perl_vendorlib}/Class/DBI/Plugin
+%{perl_vendorlib}/Class/DBI/Plugin/Type.pm
 %{_mandir}/man3/*
