@@ -20,6 +20,7 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Class-DBI
 BuildRequires:	perl-DBD-SQLite
+BuildRequires:	perl-DBIx-ContextualFetch
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
