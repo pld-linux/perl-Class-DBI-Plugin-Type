@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Class
-%define	pnam	DBI-Plugin-Type
+%define		pdir	Class
+%define		pnam	DBI-Plugin-Type
 Summary:	Determine type information for columns
 Summary(pl):	Okre¶lanie informacji o typie dla kolumn
 Name:		perl-Class-DBI-Plugin-Type
