@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	DBI-Plugin-Type
 Summary:	Determine type information for columns
-Summary(pl):	Okre∂lanie informacji o typie dla kolumn
+Summary(pl.UTF-8):   Okre≈õlanie informacji o typie dla kolumn
 Name:		perl-Class-DBI-Plugin-Type
 Version:	0.02
 Release:	3
@@ -28,9 +28,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This module allows Class::DBI-based classes to query their columns for
 data type information in a database-independent manner.
 
-%description -l pl
-Ten modu≥ pozwala klasom opartym na Class::DBI na odpytywanie kolumn
-o informacje o typie w sposÛb niezaleøny od bazy danych.
+%description -l pl.UTF-8
+Ten modu≈Ç pozwala klasom opartym na Class::DBI na odpytywanie kolumn
+o informacje o typie w spos√≥b niezale≈ºny od bazy danych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
