@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	DBI-Plugin-Type
 Summary:	Determine type information for columns
-Summary(pl.UTF-8):   Określanie informacji o typie dla kolumn
+Summary(pl.UTF-8):	Określanie informacji o typie dla kolumn
 Name:		perl-Class-DBI-Plugin-Type
 Version:	0.02
 Release:	3
