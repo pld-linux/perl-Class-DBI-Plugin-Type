@@ -4,7 +4,6 @@
 
 %define		pdir	Class
 %define		pnam	DBI-Plugin-Type
-%include	/usr/lib/rpm/macros.perl
 Summary:	Determine type information for columns
 Summary(pl.UTF-8):	Określanie informacji o typie dla kolumn
 Name:		perl-Class-DBI-Plugin-Type
